@@ -1,0 +1,11 @@
+sudo apt update && sudo apt install -y \
+  build-essential \
+  libmysqlclient-dev \
+  default-libmysqlclient-dev \
+  pkg-config \
+  python3-dev
+
+
+# To create a virtual environment
+python3 -m venv venv
+source venv/bin/activate
