@@ -1,0 +1,7 @@
+# Ignore Terraform cache
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+
+.env
