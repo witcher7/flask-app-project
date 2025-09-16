@@ -9,3 +9,27 @@ sudo apt update && sudo apt install -y \
 # To create a virtual environment
 python3 -m venv venv
 source venv/bin/activate
+
+
+✅ RECAP: YOUR CURRENT GOD-TIER STATUS
+✅ Milestone	Status
+Flask + MySQL App	✅ Done
+Dockerized with Production Dockerfile	✅ Done
+.env managed (and ignored)	✅ Done
+GitHub Repo setup + README	✅ Done
+GitHub Token setup (push ready)	✅ Done
+GitHub Actions CI pipeline	✅ Done
+Docker image auto-pushing to DockerHub	✅ DONEEEE 🔥
+
+
+☁️ Phase 3: Terraform AWS Infra
+
+✅ Create RDS MySQL (with subnet group + SG)
+
+✅ Output host, port, username, password
+
+✅ (Later) Create EKS cluster
+
+✅ (Later) Store secrets via kubeseal/Secrets
+
+✅ Use Terraform Modules (for reuse)
